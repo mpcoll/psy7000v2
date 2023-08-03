@@ -1,12 +1,17 @@
+# @Author: Your name
+# @Date:   2023-08-03 11:25:07
+# @Last Modified by:   Your name
+# @Last Modified time: 2023-08-03 11:32:21
 format: jb-book
 root: content/intro
 parts:
-- caption: Course Overview
+- caption: Aperçu et instructions
   chapters:
-  - file: content/Instructors
-  - file: content/Syllabus
-  - file: content/Schedule
-- caption: Computing Resources
+  - file: content/Instructeurs
+  - file: content/Plan de cours
+  - file: content/Semaines
+  - file: content/Calepins interactifs
+- caption: Cours 1 - Introduction et fondements
   chapters:
   - file: content/Introduction_to_JupyterHub
   - file: content/Download_Data

@@ -23,3 +23,8 @@
 <img src="../images/instructors/wasita.png" width="200"/>
 
 [Wasita Mahaphanit](https://wasita.space/) (Fall 2022) graduated from Brown University with a BS in Cognitive Neuroscience. She managed a lab at Brown after graduation, where she investigated the behavioral and computational mechanisms underlying learning and decision-making under uncertainty in healthy adults and patients with obsessive compulsive disorder. She currently works in the [COSAN Lab](http://cosanlab.com/), where she studies how we learn social cognitive maps and use this information in how we communicate and make decisions.
+
+
+## Test slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtWIR0S50AmR1tY5cc7PWmu0XQ8Ac8EvD6xrSdohItojcP8Vyn8FthQ8PQpEq56bg9c59MlHb-KzkW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
