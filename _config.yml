@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 13:29:39
+# @Last Modified time: 2023-08-03 13:38:51
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
 # Users are expected to override these values in their own `_config.yml` file.
@@ -9,9 +9,9 @@
 
 #######################################################################################
 # Book settings
-title: DartBrains # The title of the book. Will be placed in the left navbar.
-author: Luke Chang # The author of the book
-copyright: '2021' # Copyright year to be placed in the footer
+title: StatsPsy # The title of the book. Will be placed in the left navbar.
+author: Michel-Pierre Coll # The author of the book
+copyright: '2023' # Copyright year to be placed in the footer
 logo: 'images/logo/logo.png' # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns:
@@ -50,7 +50,7 @@ html:
   home_page_in_navbar: false # Whether to include your home page in the left Navigation Bar
   baseurl: 'http://www.mpcoll.github.io/psy7000v2' # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
-    hypothesis: true
+    hypothesis: false
     utterances: false
 
 #######################################################################################
