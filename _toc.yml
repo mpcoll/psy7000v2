@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 13:38:21
+# @Last Modified time: 2023-08-03 13:47:10
 format: jb-book
 root: content/intro
 parts:
@@ -13,12 +13,6 @@ parts:
   # - file: content/Semaines
   # - file: content/Calepins interactifs
 - caption: PSY-7000 Analyses de plan d'expérience
-  chapters:
-  - file: content/Cours3
-    sections:
-    - file : content/Resampling Statistics
-  # - file: content/Notes et exercices
-  # - file: content/Questions préparatoires
   chapters:
   - file: lectures/cours3.md
     sections:
