@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 11:49:38
+# @Last Modified time: 2023-08-03 13:10:21
 format: jb-book
 root: content/intro
 parts:
@@ -12,14 +12,25 @@ parts:
     - file: content/Signal_Processing
   # - file: content/Semaines
   # - file: content/Calepins interactifs
-- caption: Cours 1 - Introduction et fondements
-  chapters:
-  - file: content/Resampling Statistics
-  # - file: content/Notes et exercices
-  # - file: content/Questions préparatoires
-- caption: Cours 12 - Fin
+- caption: PSY-7000 Analyses de plan d'expérience
   chapters:
   - file: content/Cours3
+    sections:
+    -file : content/Resampling Statistics
+  # - file: content/Notes et exercices
+  # - file: content/Questions préparatoires
+  chapters:
+  - file: content/Cours3
+    sections:
+    -file : content/Resampling Statistics
+  chapters:
+  - file: content/Cours3
+    sections:
+    -file : content/Resampling Statistics  
+  chapters:
+  - file: content/Cours3
+    sections:
+    -file : content/Resampling Statistics
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires
 
