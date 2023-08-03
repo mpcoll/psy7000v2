@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 13:10:21
+# @Last Modified time: 2023-08-03 13:27:07
 format: jb-book
 root: content/intro
 parts:
@@ -16,13 +16,13 @@ parts:
   chapters:
   - file: content/Cours3
     sections:
-    -file : content/Resampling Statistics
+    - file : content/Resampling Statistics
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires
   chapters:
   - file: content/Cours3
     sections:
-    -file : content/Resampling Statistics
+    - file : content/Resampling Statistics
   chapters:
   - file: content/Cours3
     sections:
@@ -30,7 +30,7 @@ parts:
   chapters:
   - file: content/Cours3
     sections:
-    -file : content/Resampling Statistics
+    - file : content/Resampling Statistics
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires
 
