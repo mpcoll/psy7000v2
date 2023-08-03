@@ -12,7 +12,9 @@
 title: StatsPsy # The title of the book. Will be placed in the left navbar.
 author: Michel-Pierre Coll # The author of the book
 copyright: '2023' # Copyright year to be placed in the footer
-logo: 'images/logo/logo.png' # A path to the book logo
+logo: 
+    image_light: 'images/logo/logol.png'
+    image_dark: 'images/logo/logod.png'
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns:
   [README.md, _build, Thumbs.db, .DS_Store, '**.ipynb_checkpoints']
