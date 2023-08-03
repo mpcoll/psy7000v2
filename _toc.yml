@@ -1,23 +1,24 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 11:42:22
+# @Last Modified time: 2023-08-03 11:49:38
 format: jb-book
 root: content/intro
 parts:
 - caption: Aperçu et instructions
   chapters:
   - file: content/Instructors
-  # - file: content/Plandecours
+    sections:
+    - file: content/Signal_Processing
   # - file: content/Semaines
   # - file: content/Calepins interactifs
 - caption: Cours 1 - Introduction et fondements
-  sections:
+  chapters:
   - file: content/Resampling Statistics
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires
 - caption: Cours 12 - Fin
-  sections:
+  chapters:
   - file: content/Cours3
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires

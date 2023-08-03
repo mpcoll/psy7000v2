@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 11:41:42
+# @Last Modified time: 2023-08-03 11:47:43
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
 # Users are expected to override these values in their own `_config.yml` file.
@@ -46,10 +46,9 @@ html:
   use_repository_button: true # Whether to add a link to your repository button
   use_issues_button: true # Whether to add an "open an issue" button
   extra_navbar: Post questions to <a href='https://www.askpbs.org/c/dartbrains'>DartBrains Discourse</a> # Will be displayed underneath the left navbar.
-  extra_footer: Supported by an NSF CAREER Award 1848370, <a href='https://rc.dartmouth.edu/'>Dartmouth Research Computing</a>, and the <a href='https://dcal.dartmouth.edu/about/impact/experiential-learning'>Dartmouth Center for the Advancement of Learning</a>. # Will be displayed underneath the footer.
-  google_analytics_id: 'UA-138270939-1' # A GA id that can be used to track book views.
+  extra_footer: Projet supporté par le <a href='https://www.enseigner.ulaval.ca/appui-a-l-innovation/programme-d-appui-l-innovation-pedagogique'>Programme d'appui à l'innovation pédagogique de l'Université Laval</a>.
   home_page_in_navbar: false # Whether to include your home page in the left Navigation Bar
-  baseurl: 'http://dartbrains.org' # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  baseurl: 'http://www.mpcoll.github.io/psy7000v2' # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis: true
     utterances: false
@@ -67,7 +66,7 @@ launch_buttons:
   colab_url: https://colab.research.google.com # The URL of Google Colab (e.g., https://colab.research.google.com)
 
 repository:
-  url: https://github.com/ljchang/dartbrains # The URL to your book's repository
+  url: https://github.com/mpcoll/psy7000v2 # The URL to your book's repository
   path_to_book: '' # A path to your book's folder, relative to the repository root.
   branch: master # Which branch of the repository should be used when creating links
 
