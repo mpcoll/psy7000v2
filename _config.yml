@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 13:51:52
+# @Last Modified time: 2023-08-03 14:15:30
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
 # Users are expected to override these values in their own `_config.yml` file.
@@ -75,7 +75,3 @@ repository:
 sphinx:
   extra_extensions: # A list of extra extensions to load by Sphinx (added to those already used by JB).
   config:
-    html_theme_options: 
-      logo:
-        image_light: 'images/logo/logol.png'
-        image_dark: 'images/logo/logod.png'
