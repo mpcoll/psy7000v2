@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-03 13:41:42
+# @Last Modified time: 2023-08-03 13:51:52
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
 # Users are expected to override these values in their own `_config.yml` file.
@@ -12,9 +12,7 @@
 title: StatsPsy # The title of the book. Will be placed in the left navbar.
 author: Michel-Pierre Coll # The author of the book
 copyright: '2023' # Copyright year to be placed in the footer
-logo: 
-    image_light: 'images/logo/logol.png'
-    image_dark: 'images/logo/logod.png'
+
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns:
   [README.md, _build, Thumbs.db, .DS_Store, '**.ipynb_checkpoints']
@@ -76,5 +74,8 @@ repository:
 # Advanced and power-user settings
 sphinx:
   extra_extensions: # A list of extra extensions to load by Sphinx (added to those already used by JB).
-  config: # key-value pairs to directly over-ride the Sphinx configuration
-
+  config:
+    html_theme_options: 
+      logo:
+        image_light: 'images/logo/logol.png'
+        image_dark: 'images/logo/logod.png'
