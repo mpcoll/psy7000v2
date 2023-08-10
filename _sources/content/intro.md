@@ -1,30 +1,24 @@
 [![DOI](https://zenodo.org/badge/171529794.svg#left)](https://zenodo.org/badge/latestdoi/171529794)
-# Course Overview
+# Survol du site
 
-How can we understand how the brain works? This course provides an introduction to in vivo neuroimaging in humans using functional magnetic resonance imaging (fMRI). The goal of the class is to introduce: (1) how the scanner generates data, (2) how psychological states can be probed in the scanner, and (3) how this data can be processed and analyzed. Students will be expected to analyze brain imaging data using the opensource Python programming language. We will be using several packages such as numpy, matplotlib, nibabel, nilearn, fmriprep, and nltools. This course will be useful for students working in neuroimaging labs, completing a neuroimaging thesis, or interested in pursuing graduate training in fields related to cognitive neuroscience.
+Analyses statistiques importantes en psychologie blabla
 
-## Goals
 
- 1) Learn the basics of fMRI signals
- 2) Introduce standard data preprocessing techniques
- 3) Introduce the general linear model
- 4) Introduce advanced analysis techniques
+## Objectifs du cours
 
-## Overview
-This course is designed primarily around learning the basics of fMRI data analysis using the Python programming language. We will cover a lot of ground from introducing the Python programming language, to signal processing, to working with opensource packages from the Python Scientific Computing community. The format will be slightly different than the typical in-person version of the course. 
 
-- All course materials will be made available online in the format of a jupyter book, https://dartbrains.org/. Lectures will primarily be delivered via publicly available pre-recorded lectures available on youtube. 
-- Each course module will have a jupyter book tutorial and an accompanying assignment that will require completing some type of programming task or analysis. Students will work within small groups throughout the term on their assignments. 
-- Scheduled classes will primarily take the form of a Q&A where solutions to the assignments will be discussed and specific topics can be discussed in more detail. 
-- There will be a single exam, in which students will have to replicate an analysis of a published study using real data. 
-- For the final project, students will analyze an existing publicly available dataset to answer a new research question. Unfortunately, we will not be able to collect a new fMRI dataset as the Dartmouth Brain Imaging Center is currently closed for this term.
+
+## Survol
+Ce site vise à colliger le matériel de cours...
+
 
 ## Questions
-Please post any questions that arise from the material in this course on our [Discourse Page](https://www.askpbs.org/c/dartbrains)
+Vous pouvez utiliser l'outil forum du site web [MonPortail](https://monportail.ulaval.ca/portail) pour poser toute question sur la matière du cours correspondant.
 
-## License for this book
-All content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
-(CC BY-SA 4.0) license.
+## License pour ce site
+Le contenu de ce site est sous licence [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+(CC BY-SA 4.0). Le contenu de ce site a été construit à partir du matériel publié sur [Luke Chang](dartbrains.org) sous licence CC BY-SA 4.0
 
-## Acknowledgements
-Dartbrains was created by [Luke Chang](http://www.lukejchang.com/) and supported by an NSF CAREER Award 1848370 and the [Dartmouth Center for the Advancement of Learning](https://dcal.dartmouth.edu/about/impact/experiential-learning). Our jupyterhub server was built and maintained by the Research Computing staff at Dartmouth. Special thanks to Arnold Song, William Hamblen, Christian Darabos, and John Hudson.
+## Remerciements
+
+StatsPsy a été créé par [Michel-Pierre Coll](https://www.fss.ulaval.ca/notre-faculte/repertoire-du-personnel/michel-pierre-coll) et supporté par le [Programme d’appui à l’innovation pédagogique](https://www.enseigner.ulaval.ca/appui-a-l-innovation/programme-d-appui-l-innovation-pedagogique) de l'Université Laval (2023).
