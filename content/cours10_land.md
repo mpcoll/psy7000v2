@@ -1,4 +1,4 @@
-# Plans factoriels à mesures répétées
+# Plans factoriels à mesures répétées et plans mixtes
 
 ## Présentation 
 
