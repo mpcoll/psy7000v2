@@ -1,5 +1,4 @@
-# Modélisation statistique
-
+# Analyse de la covariance
 
 ## Présentation 
 

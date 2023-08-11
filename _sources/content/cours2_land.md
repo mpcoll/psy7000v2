@@ -1,4 +1,5 @@
-# Modélisation statistique
+# Planification et expériences comparatives simples
+
 
 
 ## Présentation 

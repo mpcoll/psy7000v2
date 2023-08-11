@@ -1,5 +1,4 @@
-# Modélisation statistique
-
+# Plan aléatoires - 2
 
 ## Présentation 
 

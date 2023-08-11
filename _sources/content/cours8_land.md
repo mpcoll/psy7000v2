@@ -1,5 +1,4 @@
-# Modélisation statistique
-
+# Plans en blocs et carré latin
 
 ## Présentation 
 

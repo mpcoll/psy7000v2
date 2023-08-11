@@ -1,5 +1,4 @@
-# Modélisation statistique
-
+# Plans à mesures répétées
 
 ## Présentation 
 
