@@ -1,5 +1,4 @@
-# Modélisation statistique
-
+# Plans factoriels - 2
 
 ## Présentation 
 

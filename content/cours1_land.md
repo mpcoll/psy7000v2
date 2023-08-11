@@ -1,4 +1,5 @@
-# Modélisation statistique
+# Introduction et fondements
+
 
 
 ## Présentation 
