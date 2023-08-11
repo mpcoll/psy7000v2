@@ -1,17 +1,25 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-10 15:42:48
+# @Last Modified time: 2023-08-11 09:54:18
 format: jb-book
 root: content/intro
 parts:
 - caption: PSY-7000 Analyses de plan d'expérience
   chapters:
   - file: content/Instructors
-  - file: content/Schedule
+  - file: content/Instructors
   - file: content/cours3_land
     sections:
     - file : content/Cours3
+  - file: content/cours4_land
+  - file: content/cours5_land
+  - file: content/cours6_land
+  - file: content/cours7_land
+  - file: content/cours8_land
+  - file: content/cours9_land
+  - file: content/cours10_land
+  - file: content/cours11_land
 
   # - file: content/Notes et exercices
   # - file: content/Questions préparatoires
