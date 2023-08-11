@@ -1,13 +1,12 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-11 09:54:18
+# @Last Modified time: 2023-08-11 10:00:08
 format: jb-book
 root: content/intro
 parts:
 - caption: PSY-7000 Analyses de plan d'expérience
   chapters:
-  - file: content/Instructors
   - file: content/Instructors
   - file: content/cours3_land
     sections:
