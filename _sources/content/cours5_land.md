@@ -1,4 +1,4 @@
-# Plan aléatoires - 2
+# Plan complètement aléatoires - 2
 
 ## Présentation 
 
