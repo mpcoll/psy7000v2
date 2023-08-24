@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-08-03 11:25:07
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-08-24 14:33:06
+# @Last Modified time: 2023-08-24 14:44:22
 format: jb-book
 root: content/intro
 parts:
@@ -14,7 +14,7 @@ parts:
   chapters:
   - file: content/cours1_land
     sections:
-    - file : content/PSY_7000_Cours_1
+    - file : content/PSY_7000_cours_1
   - file: content/cours2_land
   - file: content/cours3_land
     sections:
