@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -143,9 +143,11 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="intro.html">
+  
   
   
   
@@ -155,8 +157,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="StatsPsy - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="StatsPsy - Home"/>`);</script>
   
   
 </a></div>
@@ -413,6 +415,7 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -422,6 +425,7 @@ document.write(`
   </button>
 `);
 </script>
+
 
 <script>
 document.write(`
@@ -564,8 +568,8 @@ matplotlib.rc(&#39;font&#39;, family=&#39;TH Sarabun New&#39;)
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title Exemple 3.0</span>
 
-<span class="k">def</span> <span class="nf">multiple_comp</span><span class="p">():</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">multiple_comp</span><span class="p">():</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
 
 
@@ -641,8 +645,8 @@ matplotlib.rc(&#39;font&#39;, family=&#39;TH Sarabun New&#39;)
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title Exemple 3.1</span>
 
-<span class="k">def</span> <span class="nf">ttest_two_samples_glm</span><span class="p">(</span><span class="n">effet</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">ttest_two_samples_glm</span><span class="p">(</span><span class="n">effet</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
 
     <span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span>
@@ -810,8 +814,8 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title Exemple 3.1.1</span>
 
-<span class="k">def</span> <span class="nf">anova_glm</span><span class="p">(</span><span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">anova_glm</span><span class="p">(</span><span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
 
     <span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span>
@@ -986,7 +990,7 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title Exemple 3.1.2</span>
 
-<span class="k">def</span> <span class="nf">r2_sampling_dist</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">n_pargroupe</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">r2_sampling_dist</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">n_pargroupe</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
 
     <span class="n">fig</span><span class="p">,</span> <span class="n">axes</span><span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">70</span><span class="p">)</span>
 
@@ -1113,8 +1117,8 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title Exemple 3.1.3</span>
 
-<span class="k">def</span> <span class="nf">f_dist</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_pargroupe</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">prop</span><span class="o">=</span><span class="mf">0.95</span><span class="p">):</span>
-    <span class="kn">from</span> <span class="nn">tqdm.notebook</span> <span class="kn">import</span> <span class="n">tqdm</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">f_dist</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_pargroupe</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">prop</span><span class="o">=</span><span class="mf">0.95</span><span class="p">):</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">tqdm.notebook</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
 
     <span class="n">dln</span> <span class="o">=</span> <span class="n">t</span><span class="o">-</span><span class="mi">1</span>
     <span class="n">dld</span> <span class="o">=</span> <span class="n">n_pargroupe</span><span class="o">*</span><span class="n">t</span><span class="o">-</span><span class="n">t</span>
@@ -1178,8 +1182,8 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
 <span class="c1">#@title Exemple 3.1.4</span>
 
-<span class="k">def</span> <span class="nf">anova_glm</span><span class="p">(</span><span class="n">n1</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n2</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n3</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n4</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">anova_glm</span><span class="p">(</span><span class="n">n1</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n2</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n3</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n4</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
 
     <span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span>
@@ -1406,8 +1410,8 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
 <span class="c1">#@title Exemple 3.2</span>
 
-<span class="k">def</span> <span class="nf">vis_inspection</span><span class="p">(</span><span class="n">var_inegal</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">valeurs_résdiuelles</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">vis_inspection</span><span class="p">(</span><span class="n">var_inegal</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>  <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">valeurs_résdiuelles</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
     <span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">mu2</span> <span class="o">=</span> <span class="n">mu</span><span class="o">+</span><span class="mi">2</span>
@@ -1524,8 +1528,8 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
 <span class="c1">#@title Exemple 3.3</span>
 
-<span class="k">def</span> <span class="nf">anova_glm</span><span class="p">(</span><span class="n">n1</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n2</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n3</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n4</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-    <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">anova_glm</span><span class="p">(</span><span class="n">n1</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n2</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n3</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n4</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">effet_g2</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g3</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">effet_g4</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">erreur</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
 
     <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">FutureWarning</span><span class="p">)</span>
@@ -1704,7 +1708,7 @@ Pour procéder à l’analyse de la variance, nous devons être en mesure de qua
               
               
                 <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="cours3_land.html"
@@ -1781,6 +1785,7 @@ By Michel-Pierre Coll
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2023.
@@ -1810,8 +1815,8 @@ By Michel-Pierre Coll
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
 
   <footer class="bd-footer">
   </footer>
