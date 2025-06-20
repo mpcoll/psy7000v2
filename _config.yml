@@ -76,3 +76,7 @@ repository:
 sphinx:
   extra_extensions: # A list of extra extensions to load by Sphinx (added to those already used by JB).
   config:
+
+project:
+  jupyter:
+    lite: true
